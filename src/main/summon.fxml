@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SummonController">
+   <children>
+      <ImageView fx:id="_background" fitHeight="600.0" fitWidth="900.0" layoutY="-2.0" onMouseClicked="#showComfirmButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stage1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="result" fitHeight="150.0" fitWidth="200.0" layoutX="372.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/original.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image1" fitHeight="119.0" fitWidth="137.0" layoutX="160.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/foods/earth/1.png" />
+         </image></ImageView>
+      <ImageView fx:id="image2" fitHeight="119.0" fitWidth="137.0" layoutX="390.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/foods/earth/2.png" />
+         </image></ImageView>
+      <ImageView fx:id="image3" fitHeight="119.0" fitWidth="119.0" layoutX="620.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/foods/earth/3.png" />
+         </image></ImageView>
+      <Button fx:id="_bt1" layoutX="180.0" layoutY="250.0" mnemonicParsing="false" onAction="#bt1Pressed" style="-fx-background-color: #2C6359; -fx-background-radius: 30;" text="選擇" textFill="#e6e0ca">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="_bt2" layoutX="409.0" layoutY="183.0" mnemonicParsing="false" onAction="#bt2Pressed" style="-fx-background-color: #2C6359; -fx-background-radius: 30;" text="選擇" textFill="#e6e0ca">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="_bt3" layoutX="640.0" layoutY="250.0" mnemonicParsing="false" onAction="#bt3Pressed" style="-fx-background-color: #2C6359; -fx-background-radius: 30;" text="選擇" textFill="#e6e0ca">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Pane fx:id="_elementPane" layoutX="14.0" layoutY="336.0" onMouseEntered="#elementPaneEntered" onMouseExited="#elementPaneExited" prefHeight="250.0" prefWidth="166.0" style="-fx-border-color: #ED6C58; -fx-border-width: 5; -fx-border-radius: 5; -fx-background-color: #C2D6D6; -fx-background-radius: 10;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="15.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/water.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/metal.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="15.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/wood.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="15.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/fire.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="15.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/earth.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="_metalAmount" layoutX="120.0" layoutY="19.0" prefWidth="14.0" text="0" textFill="#2c6359">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_woodAmount" layoutX="120.0" layoutY="63.0" text="0" textFill="#2c6359">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_waterAmount" layoutX="120.0" layoutY="108.0" text="0" textFill="#2c6359">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_fireAmount" layoutX="120.0" layoutY="153.0" text="0" textFill="#2c6359">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_earthAmount" layoutX="120.0" layoutY="198.0" text="0" textFill="#2c6359">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="btConfirm" disable="true" layoutX="409.0" layoutY="519.0" mnemonicParsing="false" onAction="#btConfirmPressed" style="-fx-background-color: #2C6359; -fx-background-radius: 30;" text="確定" textFill="#e6e0ca" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="_slimeName" layoutX="330.0" layoutY="250.0" text="狒狒史萊姆" textFill="#495d87" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="_elementTable" fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/element.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

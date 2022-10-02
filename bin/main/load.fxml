@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.LoadController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bkLoad.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="_pane1" layoutX="60.0" layoutY="120.0" onMouseClicked="#pane1Clicked" prefHeight="401.0" prefWidth="231.0" style="-fx-border-color: OliveDrab; -fx-border-width: 5; -fx-border-radius: 10; -fx-background-radius: 13;">
+         <children>
+            <Label fx:id="_nullNotice1" layoutX="104.0" layoutY="184.0" text="無" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_name1" alignment="CENTER" layoutX="31.0" layoutY="70.0" prefHeight="30.0" prefWidth="170.0" text="哭" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_moneyText1" layoutX="30.0" layoutY="168.0" text="金錢" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slimeText1" layoutX="30.0" layoutY="265.0" text="史萊姆" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_money1" alignment="CENTER" layoutX="125.0" layoutY="168.0" prefHeight="32.0" prefWidth="91.0" text="10" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slime1" alignment="CENTER" layoutX="125.0" layoutY="265.0" prefWidth="91.0" text="0/16" textFill="OLIVEDRAB" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="_pane2" layoutX="334.0" layoutY="120.0" onMouseClicked="#pane2Clicked" prefHeight="401.0" prefWidth="231.0" style="-fx-border-color: SteelBlue; -fx-border-width: 5; -fx-border-radius: 10; -fx-background-radius: 13;">
+         <children>
+            <Label fx:id="_nullNotice2" layoutX="104.0" layoutY="184.0" text="無" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_name2" alignment="CENTER" layoutX="31.0" layoutY="70.0" prefHeight="32.0" prefWidth="170.0" text="哭哭哭哭哭哭哭" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_moneyText2" layoutX="30.0" layoutY="167.0" text="金錢" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slimeText2" layoutX="30.0" layoutY="265.0" text="史萊姆" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_money2" alignment="CENTER" layoutX="125.0" layoutY="168.0" prefHeight="32.0" prefWidth="91.0" text="10" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slime2" alignment="CENTER" layoutX="125.0" layoutY="265.0" prefWidth="91.0" text="0/16" textFill="STEELBLUE" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="_pane3" layoutX="609.0" layoutY="120.0" onMouseClicked="#pane3Clicked" prefHeight="401.0" prefWidth="231.0" style="-fx-border-color: DimGray; -fx-border-width: 5; -fx-border-radius: 10; -fx-background-radius: 13;">
+         <children>
+            <Label fx:id="_name3" alignment="CENTER" layoutX="31.0" layoutY="70.0" prefHeight="32.0" prefWidth="170.0" text="Peter" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_moneyText3" layoutX="30.0" layoutY="167.0" text="金錢" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slimeText3" layoutX="30.0" layoutY="265.0" text="史萊姆" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_money3" alignment="CENTER" layoutX="125.0" layoutY="168.0" prefHeight="32.0" prefWidth="91.0" text="10" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_slime3" alignment="CENTER" layoutX="125.0" layoutY="265.0" prefWidth="91.0" text="0/16" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="_nullNotice3" layoutX="104.0" layoutY="184.0" text="無" textFill="DIMGRAY" visible="false">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="30.0" layoutY="545.0" mnemonicParsing="false" onAction="#btBackPressed" style="-fx-background-color: B3AF8F; -fx-background-radius: 20;" text="返回" textFill="#394420">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Pane fx:id="_newRolePane" layoutX="254.0" layoutY="152.0" prefHeight="337.0" prefWidth="392.0" style="-fx-background-color: AntiqueWhite; -fx-background-radius: 5;" visible="false">
+         <children>
+            <TextField fx:id="_input" layoutX="117.0" layoutY="157.0" promptText="名字" />
+            <Label layoutX="124.0" layoutY="41.0" text="創建新角" textFill="#d73434">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="166.0" layoutY="255.0" mnemonicParsing="false" onAction="#btSummitPressed" style="-fx-background-color: D0F4EA; -fx-background-radius: 20;" text="創建" textFill="#2b2d42">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="_unableNotice" layoutX="124.0" layoutY="202.0" text="名字需為一到七字" textFill="#ea0707" visible="false">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="_confirm" layoutX="304.0" layoutY="545.0" mnemonicParsing="false" onAction="#btConfirmPressed" style="-fx-background-color: D0F4EA; -fx-background-radius: 20;" text="確定" textFill="#2b2d42" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="_delete" layoutX="535.0" layoutY="545.0" mnemonicParsing="false" onAction="#btDeletedPressed" style="-fx-background-color: D0F4EA; -fx-background-radius: 20;" text="刪除" textFill="#2b2d42" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="_newFile" layoutX="401.0" layoutY="545.0" mnemonicParsing="false" onAction="#btCreateNewFilePressed" style="-fx-background-color: D0F4EA; -fx-background-radius: 20;" text="創建新檔" textFill="#2b2d42" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

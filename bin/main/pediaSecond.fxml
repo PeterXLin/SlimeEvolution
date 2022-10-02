@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.PediaSecondController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bkP.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime9" fitHeight="194.0" fitWidth="156.0" layoutX="48.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/volcano.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime10" fitHeight="167.0" fitWidth="175.0" layoutX="261.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/mine.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime11" fitHeight="150.0" fitWidth="200.0" layoutX="486.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/scrapiron.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime12" fitHeight="177.0" fitWidth="185.0" layoutX="711.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/weed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime13" fitHeight="150.0" fitWidth="200.0" layoutX="47.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/sewage.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime14" fitHeight="150.0" fitWidth="200.0" layoutX="259.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/ash.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime15" fitHeight="150.0" fitWidth="200.0" layoutX="486.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/mud.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_slime16" fitHeight="150.0" fitWidth="200.0" layoutX="711.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/slimes/yinyang.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="220.0" text="火山史萊姆" textFill="#ed2318">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="220.0" text="礦石史萊姆" textFill="#ed20d2">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="503.0" layoutY="220.0" text="廢鐵史萊姆" textFill="#b57d0d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="727.0" layoutY="220.0" text="雜草史萊姆" textFill="#3e7729">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="484.0" text="汙水史萊姆">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="484.0" text="灰燼史萊姆" textFill="#595555">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="503.0" layoutY="484.0" text="爛泥史萊姆" textFill="#5f490c">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="727.0" layoutY="484.0" text="陰陽史萊姆" textFill="#8a7575">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="524.0" mnemonicParsing="false" onAction="#btNextPressed" style="-fx-background-color: #A1A56A; -fx-background-radius: 30;" text="上一頁" textFill="#794b4d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="26.0" layoutY="524.0" mnemonicParsing="false" onAction="#btBackPressed" style="-fx-background-color: #A1A56A; -fx-background-radius: 30;" text="返回" textFill="#794b4d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="block9" fitHeight="191.0" fitWidth="156.0" layoutX="50.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block10" fitHeight="191.0" fitWidth="156.0" layoutX="264.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block11" fitHeight="191.0" fitWidth="156.0" layoutX="488.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block12" fitHeight="191.0" fitWidth="156.0" layoutX="712.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block13" fitHeight="191.0" fitWidth="156.0" layoutX="50.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block14" fitHeight="191.0" fitWidth="156.0" layoutX="262.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block15" fitHeight="191.0" fitWidth="156.0" layoutX="486.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="block16" fitHeight="191.0" fitWidth="156.0" layoutX="712.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/slimes/question.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
